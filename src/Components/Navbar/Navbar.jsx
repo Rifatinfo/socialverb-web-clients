@@ -19,16 +19,16 @@ const Navbar = () => {
 
     return (
 
-        <div className="w-full bg-transparent fixed top-0 left-0 z-50 object-cover border-b-4 border-gray-200">
+        <div className="w-full bg-transparent fixed top-0 left-0 z-50 object-cover border-b-2 border-gray-200">
             <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
                 <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
                     <img className="lg:w-auto lg:h-20 md:w-auto md:h-11 w-auto h-11" src={logo} alt="not fount" />
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex md:items-center">
+                <ul className=" hidden md:flex md:items-center">
                     {Links.map((link, index) => (
-                        <li key={index} className="md:ml-8 text-xl lg:text-xl md:text-sm ">
+                        <li key={index} className="font-rubik md:ml-8 text-xl lg:text-xl md:text-sm ">
                             <a href={link.link} className="text-white hover:text-gray-400 duration-500">
                                 {link.name}
                             </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                         }`}
                 >
                     {Links.map((link, index) => (
-                        <li key={index} className="text-xl lg:text-xl my-7">
+                        <li key={index} className="font-rubik text-xl lg:text-xl my-7">
                             <a href={link.link} className="text-white  hover:text-gray-400 duration-500">
                                 {link.name}
                             </a>

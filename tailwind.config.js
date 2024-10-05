@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"], // Corrected font family syntax
+        rubik: ["Rubik", "sans-serif"],
+        federo: ["Federo", "sans-serif"],
       },
     },
   },
