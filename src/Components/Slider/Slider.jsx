@@ -7,7 +7,7 @@ const Slider = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev === 3 ? 1 : prev + 1));
-        }, 30000);
+        }, 3000);
 
         return () => clearInterval(interval);
     }, []);
@@ -31,7 +31,7 @@ const Slider = () => {
                     className="w-full h-full object-cover" alt="Tourist Destination" />
                 <div className="absolute inset-0 flex items-center justify-center text-center bg-gradient-to-r from-black/80 via-black/60 to-transparent p-4 sm:p-6 md:p-8">
                     <div className="space-y-3 sm:space-y-5 ml-4 sm:ml-6 md:ml-8 mt-16">
-                        <h1 className="font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
+                        <h1 className="font-rubik font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
                             CREATIVE <br /> TALENT <br /> HERE
                         </h1>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -52,7 +52,7 @@ const Slider = () => {
                     className="w-full h-full object-cover" alt="Tourist Destination" />
                 <div className="absolute  inset-0 flex items-center justify-center text-center bg-gradient-to-r from-black/80 via-black/60 to-transparent p-4 sm:p-6 md:p-8">
                     <div className="space-y-3 sm:space-y-5 ml-4 sm:ml-6 md:ml-8 mt-16">
-                        <h1 className="font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
+                        <h1 className="font-rubik font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
                             CREATIVE <br /> TALENT <br /> HERE
                         </h1>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -73,7 +73,7 @@ const Slider = () => {
                     className="w-full h-full object-cover" alt="Tourist Destination" />
                 <div className="absolute inset-0 flex items-center justify-center text-center bg-gradient-to-r from-black/80 via-black/60 to-transparent p-4 sm:p-6 md:p-8">
                     <div className="space-y-3 sm:space-y-5 ml-4 sm:ml-6 md:ml-8 mt-16">
-                        <h1 className="font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
+                        <h1 className="font-rubik font-bold text-6xl md:text-9xl lg:text-9xl text-white text-shadow-lg">
                             CREATIVE <br /> TALENT <br /> HERE
                         </h1>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
